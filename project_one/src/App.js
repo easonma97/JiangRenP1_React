@@ -22,10 +22,20 @@ const Header = () => {
   );
 };
 
+const Page = () => {
+  return (
+    <div className="page">
+    <h1>THE FUTURE IS HERE</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  )
+}
+
 function App() {
   return (
     <div className="App">
       <Header />
+      <Page />
     </div>
   );
 }
