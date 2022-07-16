@@ -1,26 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-const Header
-
+const Header = () => {
+  return (
+    <div className="header">
+      <h2 className="left-heading">Introducing iWatch</h2>
+      <ul className="right-heading">
+        <li className="right-nav">
+          <a href="#product"></a>Product
+        </li>
+        <li className="right-nav">
+          <a href="#feature"></a>Feature
+        </li>
+        <li className="right-nav">
+          <a href="#review"></a>Review
+        </li>
+        <li className="right-nav">
+          <a href="#contact"></a>Contact
+        </li>
+      </ul>
+    </div>
+  );
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
     </div>
   );
 }
