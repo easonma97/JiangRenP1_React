@@ -1,0 +1,30 @@
+.header {
+    height: 80px;
+    background-color: powderblue;
+  }
+  
+.left-heading{
+    display: block;
+    position: absolute;
+    left: 30px !important;
+}
+    
+.right-heading{
+    display: block;
+    position: absolute;
+    height: 60px;
+    right: 30px !important;
+    margin-top: 25px;
+    padding: 0;
+    list-style-type: none;
+}
+    
+.right-nav{
+    display: inline-block;
+    color: white;
+    padding: 0 5px;
+}
+    
+.right-nav:hover {
+    background-color: cadetblue;
+}
