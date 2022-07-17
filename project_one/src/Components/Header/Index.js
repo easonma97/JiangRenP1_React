@@ -1,1 +1,1 @@
-export {Header} from './Header.js';
+export {default} from './Header';

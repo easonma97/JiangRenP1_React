@@ -1,0 +1,8 @@
+.introduction{
+    background: url(../../../../public/header-background.jpg) no-repeat scroll center bottom;
+    background-size: cover;
+}
+  
+.introduction h1{
+    margin: 0 0 25px;
+}

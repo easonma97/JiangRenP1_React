@@ -1,0 +1,62 @@
+.demo-button{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin: auto;
+}
+  
+.clock-animation-block{
+    display: flex;
+    margin: auto;
+    height: 300px;
+    width: 600px;
+    flex-wrap: nowrap;
+}
+  
+.clock-animation-button{
+    flex-basis: 150px;
+      flex-grow: 0;
+      flex-shrink: 0;
+    min-width: 0;
+}
+  
+.clock-animation-button-one{
+    position: relative;
+    right: -100px;
+    top: 60px;
+}
+  
+.clock-animation-button-one-context{
+    overflow-wrap: break-word;
+}
+  
+.clock-animation-button-two{
+    position: relative;
+    left: -100px;
+    top: 180px;
+}
+  
+.clock-animation-button-two-context{
+    position: relative;
+    top: 150px;
+    overflow-wrap: break-word;
+}
+  
+.clock-animation{
+    flex-basis: 300px;
+      flex-grow: 0;
+      flex-shrink: 0;
+}
+  
+.apple-watch-2{
+    /*margin: auto;*/
+    height: 300px;
+    width: 210px;
+}
