@@ -1,0 +1,9 @@
+.right-nav{
+    display: inline-block;
+    color: white;
+    padding: 0 5px;
+}
+    
+.right-nav:hover {
+    background-color: cadetblue;
+}
